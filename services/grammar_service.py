@@ -18,7 +18,7 @@ def get_grammar_details(grammar_id: int):
         2: {
             "grammar": "～てもいい",
             "meaning": "表示许可",
-            "example": "ここで写真を撮ってもいいですか？",
+            "example": "ここで写真を撮ってもいいですか？",     
         },
     }
     return grammar_data.get(grammar_id, {"error": "Grammar not found"})
